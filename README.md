@@ -1,4 +1,5 @@
 [![update-flake-lock](https://github.com/karpfediem/yara-sigs/actions/workflows/auto-update-flake.yml/badge.svg)](https://github.com/karpfediem/yara-sigs/actions/workflows/auto-update-flake.yml)
+[![run-yara-sigs](https://github.com/karpfediem/yara-sigs/actions/workflows/run-yara-sigs.yml/badge.svg)](https://github.com/karpfediem/yara-sigs/actions/workflows/run-yara-sigs.yml)
 
 # Run
 
