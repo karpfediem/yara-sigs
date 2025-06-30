@@ -19,6 +19,7 @@ in stdenv.mkDerivation {
     "/yara/gen_vcruntime140_dll_sideloading.yar"
     "/yara/gen_mal_3cx_compromise_mar23.yar"
     "/yara/expl_connectwise_screenconnect_vuln_feb24.yar"
+    "/yara/gen_susp_obfuscation.yar"
 	  ]));
 	};
 	installPhase = ''
