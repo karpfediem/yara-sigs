@@ -21,6 +21,7 @@ jobs:
           pr-labels: |
             dependencies
             automated
+      - run: nix run . .
       - if: ${{ steps.update.outputs.pull-request-number != '' }}
         run: "gh pr merge --auto --merge ${{ steps.update.outputs.pull-request-number }}"
         env:
