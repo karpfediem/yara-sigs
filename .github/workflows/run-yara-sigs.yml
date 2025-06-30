@@ -1,4 +1,8 @@
 name: run-yara-sigs
+on:
+  push:
+    branches:
+      - main
 jobs:
   run:
     runs-on: ubuntu-latest
