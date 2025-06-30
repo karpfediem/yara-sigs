@@ -21,7 +21,7 @@ jobs:
           pr-labels: |
             dependencies
             automated
-      - run: nix run . .
+      - run: nix develop . -c yara-sigs .
       - if: ${{ steps.update.outputs.pull-request-number != '' }}
         run: "gh pr merge --auto --merge ${{ steps.update.outputs.pull-request-number }}"
         env:
