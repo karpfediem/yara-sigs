@@ -59,11 +59,11 @@
     "signature-base": {
       "flake": false,
       "locked": {
-        "lastModified": 1778004327,
-        "narHash": "sha256-5cDrMb4XjcTDLcjRddwCZlvwnhTGBXa82imJzaSvdUs=",
+        "lastModified": 1778253948,
+        "narHash": "sha256-3ErHWdcNyiuVEjndcbMkI2UUkRJ1kRKcmrWgZrB/H0w=",
         "owner": "Neo23x0",
         "repo": "signature-base",
-        "rev": "8a2be134c8d39cc3f75867a6cc8f182e129b5335",
+        "rev": "cd323c8621927f9a7675b6925a3b620085586749",
         "type": "github"
       },
       "original": {
